@@ -48,10 +48,6 @@ def check_result(file1, file2):
         posbool = True
     else: negs += 1
 
-    # if file1[1:] == file2[1:] and file1 != file2:
-    #     print(result)
-    #     rs.append(result)
-
     if file1[1:] == file2[1:]:
         if posbool: correctpos += 1
         else: falseneg += 1
@@ -102,9 +98,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-# rs.sort()
-# print(f"Len p_results: {len(rs)}")
-# print(f"First quartile p: {rs[len(rs)//4]}")
-# print(f"Median p: {rs[len(rs)//2]}")
-# print(f"Average: {sum(rs)/len(rs)}")

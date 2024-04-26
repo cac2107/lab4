@@ -1,16 +1,6 @@
-# Alex Rosse
-# CSEC 472 - Lab 3
-# Group 2
-# Method 1
-
 import random
-import numpy as np
-import pandas as pd
 import cv2
-import matplotlib.pyplot as plt
 import os
-import shutil
-from PIL import Image
 from tqdm import tqdm
 
 def detect(detector, image):
