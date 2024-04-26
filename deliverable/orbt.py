@@ -38,9 +38,6 @@ def for_hybrid(file1, file2, expv=0.34):
 
     return result >= expv
 
-def test():
-    print(compare_prints("test/f1501_06.png", "test/f1501_06.png"))
-
 def check_result(file1, file2):
     """
     (pos, negs, c_pos, f_neg, f_pos, c_neg)
